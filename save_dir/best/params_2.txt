@@ -1,0 +1,15 @@
+lr: 0.001
+momentum: 0.9
+num_hidden: 4
+sizes: 200,200,200,200
+activation: relu
+loss: ce
+opt: adam
+batch_size: 20
+epochs: 30 
+anneal: true
+********************
+lambd: 0.1
+dropout_p: 0.0
+pca: true
+pca_n_components: 200

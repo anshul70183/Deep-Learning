@@ -1,0 +1,2 @@
+python train.py --pretrain true --state 1 --testing true --save_dir ../save_dir/best/ --expt_dir ../expt_dir/ --test ../save_dir/best/test_1.csv --num_hidden 3 --sizes 300,300,300 --activation relu 
+python train.py --pretrain true --state 2 --testing true --save_dir ../save_dir/best/ --expt_dir ../expt_dir/ --test ../save_dir/best/test_2.csv --num_hidden 4 --sizes 200,200,200,200 --activation relu
